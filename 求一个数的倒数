@@ -1,0 +1,12 @@
+# StudyCode-C-
+#include<stdio.h>
+int main(){
+	float m;
+	float n;
+	printf("请输入一个浮点值\n");
+	scanf("%f", &m);
+	n = 1/m;
+	printf("输出的结果为%f\n", n);
+	return 0;
+	
+}
