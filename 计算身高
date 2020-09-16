@@ -1,0 +1,10 @@
+# StudyCode-C-
+#include<stdio.h>
+int main(){
+	double m;
+	double n;
+	printf("请输入英尺英寸\n");
+	scanf("%lf %lf", &m, &n);
+	printf("身高是%f米\n", ((m + n / 12) * 0.3048));
+	return 0; 
+}		
