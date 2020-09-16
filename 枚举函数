@@ -1,0 +1,12 @@
+# StudyCode-C-
+#include<stdio.h>
+enum Color{
+	RED,
+	BULE,
+	YELLOW
+};
+int main(){
+	enum Color color = RED;
+	printf("输出的结果为%d", color);
+	return 0;
+}
