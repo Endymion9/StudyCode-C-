@@ -1,0 +1,12 @@
+# StudyCode-C-
+#include<stdio.h>
+int main(){
+	int m = 0;
+	printf("你要好好学习吗?\n(0,1)>:");
+	scanf("%d", &m);
+	if(m == 1)
+		printf("你会成功\n");
+	else
+		printf("你会失败\n");
+	return 0;
+}
