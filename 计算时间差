@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){
+	int min1, hour1;
+	int min2, hour2;
+	int im, ih;
+	scanf("%d %d", &hour1, &min1);
+	scanf("%d %d", &hour2, &min2);
+	im = min1 - min2;
+	ih = hour1 - hour2;
+	if(im < 0){	
+		im = im + 60;
+		ih--;
+	}
+	printf("时间差为%d%d\n", ih, im);
+	return 0;
+} 
