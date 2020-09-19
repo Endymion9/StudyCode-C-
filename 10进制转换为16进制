@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+	int x;
+	int a;
+	int b;
+	scanf("%d", &x);
+	a = x / 16;
+	b = x % 16;
+	printf("%d", a * 10 + b);
+	return 0;
+} 
