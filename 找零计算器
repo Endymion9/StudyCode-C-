@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+	int a = 0;
+	int b = 0;
+	printf("请输入你要支付的钱以及商品的价格\n");
+	scanf("%d %d", &a, &b);
+	if( a >= b ){
+		int c = a - b;
+		printf("找您%d元\n", c);
+	}
+	else
+	printf("您支付的钱不够");
+	return 0;
+}
