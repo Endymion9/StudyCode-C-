@@ -1,0 +1,13 @@
+#include<stdio.h>
+int sum(int a, int b){
+	int Sum = 0;
+	int i;
+	for(i = a;i <= b;i++){
+		Sum = Sum + i;
+	}
+	printf("%d到%d的和为%d", a, b, Sum);
+}
+int main(){
+	sum(1,3);
+	return 0;
+}
